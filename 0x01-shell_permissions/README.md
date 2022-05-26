@@ -1,1 +1,1 @@
-Shoing how permissions work
+Showing how permissions work in the shell
