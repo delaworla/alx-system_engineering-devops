@@ -9,7 +9,7 @@ If an invalid subreddit is given, the function should return 0.
 
 import requests
 
-def number_of_reddit_subscribers(subreddit):
+def number_of_subscribers(subreddit):
     sub_request = requests.get(
         "https://www.reddit.com/r/{}/about.json".format(subreddit),
         headers={"User-Agent": "Custom"},
