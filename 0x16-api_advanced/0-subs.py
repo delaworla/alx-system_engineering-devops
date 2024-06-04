@@ -16,4 +16,6 @@ def number_of_reddit_subscribers(subreddit):
     )
 
     if sub_request.status_code == 200:
-        
+        return sub_request.json().get("data").get("subscribers")
+    else:
+        return 0
