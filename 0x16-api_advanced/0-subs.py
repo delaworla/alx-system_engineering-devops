@@ -14,3 +14,6 @@ def number_of_reddit_subscribers(subreddit):
         "https://www.reddit.com/r/{}/about.json".format(subreddit),
         headers={"User-Agent": "Custom"},
     )
+
+    if sub_request.status_code == 200:
+        
