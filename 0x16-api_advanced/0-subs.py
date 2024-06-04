@@ -8,3 +8,4 @@ If an invalid subreddit is given, the function should return 0.
 """
 
 def number_of_reddit_subscribers(subreddit):
+    sub_request = requests.get
